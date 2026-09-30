@@ -1,0 +1,11 @@
+spec_version: "0.1.0"
+name: dependency-risk-scorer
+version: 0.1.0
+description: "Ranks named dependencies using supplied impact, likelihood, and exposure duration factors. It exposes a deterministic prioritisation score rather than predicting an outage."
+skills:
+  - dependency-risk-scorer-skill
+tools:
+  - audit-dependency-risk-scorer
+tags:
+  - "engineering-operations"
+  - evidence-driven

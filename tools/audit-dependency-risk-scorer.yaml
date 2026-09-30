@@ -1,0 +1,19 @@
+name: audit-dependency-risk-scorer
+description: Run the Dependency Risk Scorer deterministic analyzer
+version: 0.1.0
+input_schema:
+  type: object
+  properties:
+    payload:
+      type: object
+      description: JSON payload matching the agent input contract
+  required: [payload]
+output_schema:
+  type: object
+  properties:
+    findings: {type: array}
+    valid: {type: boolean}
+implementation:
+  type: script
+  path: audit-dependency-risk-scorer.py
+  runtime: python3

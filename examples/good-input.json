@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"payments","impact":5,"likelihood":4,"exposure_days":30},{"name":"search","impact":2,"likelihood":2,"exposure_days":10}]}
